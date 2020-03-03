@@ -3,6 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/openjdk:8-jdk-browsers
-    stepes:
+    steps:
       - checkout
       - run: echo "Hello CircleCI!"
